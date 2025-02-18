@@ -4,6 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+    gem 'jekyll-toc'
     gem 'wdm', '>= 0.1.0'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
@@ -19,7 +20,6 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
-    gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
 
