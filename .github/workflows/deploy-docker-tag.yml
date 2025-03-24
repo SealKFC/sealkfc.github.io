@@ -33,6 +33,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: amirpourmand/al-folio
+          ruby-version: 3.2.2
 
       - name: Login
         uses: docker/login-action@v3
