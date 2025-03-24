@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Aaron Rhim # the website title (if blank, full name will be used instead)
+first_name: Aaron
+middle_name: N.
+last_name: Rhim
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please reach out to my email if you have any questions.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
