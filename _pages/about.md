@@ -30,5 +30,3 @@ Before joining UBC, I participated in the AI Scholars program and the 1:1 AI Res
 My current interests lie in optimizing control systems and computer vision algorithms. This summer, I am the leader and founder of a research group, supervised by Dr. Warren Hare, in which we explore control systems through vision-driven control. 
 
 Please visit our github organization [Your Remote Arm](https://github.com/Your-Remote-Arm) to learn about our up-to-date research projects.
-
-For what is not mentioned in my profile page, I dislike operating systems and am working on deploying my first desktop in Arch Linux. Apart from academics, I am an avid pianist and have been playing every day for the past 12 years. I also love to play tennis and organize group gatherings with my friends at UBC!
