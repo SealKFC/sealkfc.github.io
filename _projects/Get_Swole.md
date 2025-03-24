@@ -58,3 +58,6 @@ npm start
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://youtu.be/qAPHT_JzxHk?si=c2jW5gJc-CEqSBqC" allowfullscreen></iframe>
 </div>
+<div class="caption">
+    If embed doesn't work, click [this link](https://youtu.be/NHhUY5PsC7A)
+</div>

@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aaronrhim
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - aaronrhim/aaronrhim.github.io
+  - aaronrhim/stock-market-prediction
+  - aaronrhim/hackathonCS6
+  - Your-Remote-Arm/RobotArmSimulation

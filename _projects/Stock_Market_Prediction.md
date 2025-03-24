@@ -59,7 +59,7 @@ pip install -r requirements.txt
 Execute the pipeline by running the `alpaca_engine_OMH.py` script:
 
 ```bash
-python deployment/alpaca_engine_OMH.py.py
+python deployment/alpaca_engine_OMH.py
 ```
 
 ---
@@ -83,7 +83,7 @@ python deployment/alpaca_engine_OMH.py.py
 Execute the pipeline by running the `alapaca_engine_GB.py` script:
 
 ```bash
-python deployment/alapaca_engine_GB.py.py
+python deployment/alapaca_engine_GB.py
 ```
 
 ---

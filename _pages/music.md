@@ -5,12 +5,12 @@ permalink: /music/
 description: My music portfolio.
 nav: true
 nav_order: 3
-display_categories: [music, fun]
+display_categories: [classical, anime]
 horizontal: false
 ---
 
 <!-- pages/music.md -->
-<div class="music">
+<div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized music -->
   {% for category in page.display_categories %}

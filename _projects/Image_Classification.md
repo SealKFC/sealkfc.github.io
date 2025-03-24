@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Image Classification
-description: Transfer Learning of the ResNet50 model
+description: Transfer Learning with ResNet50
 img: assets/img/food101.png
 importance: 2
 category: fun
