@@ -410,9 +410,9 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-image-classification",
+          title: 'Image Classification',
+          description: "Transfer Learning of the ResNet50 model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
@@ -435,16 +435,16 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-get-swole",
           title: 'Get Swole',
           description: "BC Hacks 6 Submission",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Get_Swole/";
+            },},{id: "projects-stock-market-prediction",
+          title: 'Stock Market Prediction',
+          description: "Project Final submission",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Stock_Market_Prediction/";
             },},{id: "projects-your-remote-arm",
           title: 'Your Remote Arm',
           description: "Research project, summer 2025. Still in research phase.",
