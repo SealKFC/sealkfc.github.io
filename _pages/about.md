@@ -2,13 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI enthusiast, exploring the unknown... 🚀
 
 profile:
   align: right
   image: self_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p></p>
+    <p></p>
+    <p></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,8 +26,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-AI enthusiast, exploring the unknown... 🚀
-
 I am a first-year at the University of British Columbia, studying Data Science and specializing in Artificial Intelligence (AI). 
 
 Before joining UBC, I participated in the AI Scholars program and the 1:1 AI Research Mentorship at Inspirit AI. I also participated in a game development summer program held at DigiPen Institute of Technology. Since then, I have been cultivating my love for AI through the UBC Aerospace Club (ARRC) and independent projects.
