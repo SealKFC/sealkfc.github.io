@@ -1,25 +1,53 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Get Swole
+description: BC Hacks 6 Submission
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Get Swole is a fullstack web application that boosts gym performance by analyzing your form in real-time. It leverages MediaPipe for pose landmark detection and a custom model to verify full exercise repetitions.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Features
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Real-Time Pose Estimation:** Uses MediaPipe for extracting pose landmarks.
+- **Full Rep Detection:** Combines angle calculations with a separately trained model.
+- **Integrated Fullstack:** Seamlessly connects the frontend, backend, and ML components.
+
+## Installation
+
+#### Prerequisites
+
+- Node.js (v14+)
+- Python (v3.8+)
+
+#### MediaPipe Setup
+
+Follow the official MediaPipe documentation for installation instructions.
+
+#### Backend:
+{% raw %}
+```bash
+git clone https://github.com/yourusername/getswole.git
+cd ./server
+python MediaPipe.py
+```
+{% endraw %}
+
+#### Frontend:
+{% raw %}
+```bash
+cd ../frontend
+npm install
+npm start
+```
+{% endraw %}
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://youtu.be/qAPHT_JzxHk?si=c2jW5gJc-CEqSBqC" allowfullscreen></iframe>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
