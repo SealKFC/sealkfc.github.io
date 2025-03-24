@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "members of the lab or group",
+          description: "Members of Your Remote Arm",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -405,33 +405,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-image-classification",
-          title: 'Image Classification',
-          description: "Transfer Learning of the ResNet50 model",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
+          section: "News",},{id: "projects-example",
+          title: 'Example',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
@@ -440,6 +415,11 @@ ninja.data = [{
           description: "BC Hacks 6 Submission",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Get_Swole/";
+            },},{id: "projects-image-classification",
+          title: 'Image Classification',
+          description: "Transfer Learning with ResNet50",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Image_Classification/";
             },},{id: "projects-stock-market-prediction",
           title: 'Stock Market Prediction',
           description: "Project Final submission",
@@ -450,12 +430,22 @@ ninja.data = [{
           description: "Research project, summer 2025. Still in research phase.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Your_Remote_Arm/";
+            },},{id: "projects-la-campanella",
+          title: 'La Campanella',
+          description: "Paganini, Liszt",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/la_campanella/";
+            },},{id: "projects-unravel",
+          title: 'Unravel',
+          description: "Adaption by Animenz",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/unravel/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%72%68%69%6D%61%61%72%6F%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -476,14 +466,14 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=None", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://arrc.ca/", "_blank");
         },
       },{
       id: 'light-theme',
