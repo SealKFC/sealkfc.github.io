@@ -1,36 +1,39 @@
 ---
 layout: page
-title: project 1
+title: Your Remote Arm
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/YourRemoteArm.png
 importance: 1
 category: work
 related_publications: true
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Imagine computer vision, mechanical engineering, and human-computer interaction, all coming together seamlessly in one revolutionary project. I'm excited to introduce: Your Remote Arm--a prototype and concept born from my belief that the most impactful innovations happen when advanced technology meets a intuitive, user-oriented design.
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    The following design and ideas were created by me.
     ---
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+</div> -->
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="assets/pdf/Summer_Project_Proposal.pdf" target="_blank">
+      {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Summer Project Proposal" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption">Summer Project Proposal</div>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="assets/pdf/Summer_Project_Recruitment.pdf" target="_blank">
+      {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Summer Project Recruitment" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption">Summer Project Recruitment</div>
+  </div>
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
