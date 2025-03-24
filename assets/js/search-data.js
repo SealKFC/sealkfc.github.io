@@ -405,17 +405,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-your-remote-arm",
-          title: 'Your Remote Arm',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -450,6 +440,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-get-swole",
+          title: 'Get Swole',
+          description: "BC Hacks 6 Submission",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Get_Swole/";
+            },},{id: "projects-your-remote-arm",
+          title: 'Your Remote Arm',
+          description: "Research project, summer 2025. Still in research phase.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Your_Remote_Arm/";
             },},{
         id: 'social-email',
         title: 'email',
