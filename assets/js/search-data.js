@@ -9,26 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-music",
-          title: "music",
-          description: "My music portfolio.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/music/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of my cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-music",
+          title: "music",
+          description: "My music portfolio.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/music/";
+          },
+        },{id: "nav-experience",
+          title: "experience",
+          description: "My work experience",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
           },
         },{id: "nav-people",
           title: "people",
@@ -36,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "post-a-post-with-image-galleries",
       
