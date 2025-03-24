@@ -5,9 +5,11 @@ description: Research project, summer 2025. Still in research phase.
 img: assets/img/YourRemoteArm.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 Imagine computer vision, mechanical engineering, and human-computer interaction, all coming together seamlessly in one revolutionary project. I'm excited to introduce: Your Remote Arm--a prototype and concept born from my belief that the most impactful innovations happen when advanced technology meets a intuitive, user-oriented design.
+
+---
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +26,11 @@ Imagine computer vision, mechanical engineering, and human-computer interaction,
   </div>
 </div>
 
+---
+
 This project is still in the research phase. While it is not officially a research project, I aim to make it research-based through the supervision of Dr. Warren Hare. The following is the current research my team and I have done.
+
+---
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
