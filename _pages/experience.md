@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of my cool projects.
+title: experience
+permalink: /experience/
+description: My work experience
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [Inspirit, fun]
 horizontal: false
 ---
 
