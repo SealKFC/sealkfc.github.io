@@ -427,11 +427,21 @@ ninja.data = [{
           description: "Transfer Learning with ResNet50",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Image_Classification/";
+            },},{id: "projects-inspirit-summer-program",
+          title: 'Inspirit Summer Program',
+          description: "NLP + Finance Algorithmic Trading",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Inspirit/";
             },},{id: "projects-stock-market-prediction",
           title: 'Stock Market Prediction',
           description: "Project Final submission",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Stock_Market_Prediction/";
+            },},{id: "projects-video-denoising",
+          title: 'Video Denoising',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Video_Denoising/";
             },},{id: "projects-your-remote-arm",
           title: 'Your Remote Arm',
           description: "Research project, summer 2025. Still in research phase.",
