@@ -4,9 +4,13 @@ title: Get Swole
 description: BC Hacks 6 Submission
 img: assets/img/Get_Swole.png
 importance: 2
-category: work
+category: fun
 giscus_comments: false
 ---
+
+---
+## Github Repository
+[Get Swole Link](https://github.com/aaronrhim/HackathonCS6)
 
 Get Swole is a fullstack web application that boosts gym performance by analyzing your form in real-time. It leverages MediaPipe for pose landmark detection and a custom model to verify full exercise repetitions.
 
@@ -59,5 +63,6 @@ npm start
   <iframe class="embed-responsive-item" src="https://youtu.be/qAPHT_JzxHk?si=c2jW5gJc-CEqSBqC" allowfullscreen></iframe>
 </div>
 <div class="caption">
-    If embed doesn't work, click [this link](https://youtu.be/NHhUY5PsC7A)
+    If embed doesn't work, click <a href="https://youtu.be/NHhUY5PsC7A">this link</a>
 </div>
+

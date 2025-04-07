@@ -5,7 +5,7 @@ permalink: /experience/
 description: My work experience
 nav: true
 nav_order: 4
-display_categories: [Inspirit, fun]
+display_categories: [Inspirit, ARRC]
 horizontal: false
 ---
 
