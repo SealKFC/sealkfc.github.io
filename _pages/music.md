@@ -5,7 +5,7 @@ permalink: /music/
 description: My music portfolio.
 nav: true
 nav_order: 3
-display_categories: [classical, anime]
+display_categories: [classical, anime, contemporary]
 horizontal: false
 ---
 
