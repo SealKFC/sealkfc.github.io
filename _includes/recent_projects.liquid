@@ -1,0 +1,34 @@
+<div class="recentprojects">
+  {% if site.recentprojects != blank %}
+    {% assign recentprojects_size = site.recentprojects | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and page.announcements.scrollable and recentprojects_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign recentprojects = site.recentprojects | reverse %}
+        {% if include.limit and page.announcements.limit %}
+          {% assign recentprojects_limit = page.announcements.limit %}
+        {% else %}
+          {% assign recentprojects_limit = recentprojects_size %}
+        {% endif %}
+        {% for item in recentprojects limit: recentprojects_limit %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="recentprojects-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No recent projects so far...</p>
+  {% endif %}
+</div>

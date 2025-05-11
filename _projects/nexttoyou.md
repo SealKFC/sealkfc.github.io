@@ -2,7 +2,7 @@
 layout: page
 title: Next to You
 description: Adaption by Theister
-img: assets/img/nexttotyou.png
+img: assets/img/nexttoyou.png
 importance: 3
 category: anime
 ---
