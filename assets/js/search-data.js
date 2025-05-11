@@ -447,11 +447,31 @@ ninja.data = [{
           description: "Research project, summer 2025. Still in research phase.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Your_Remote_Arm/";
+            },},{id: "projects-a-cruel-angel-39-s-thesis",
+          title: 'A Cruel Angel&amp;#39;s Thesis',
+          description: "Adaption by Hidetoshi Sato",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cruel_angel/";
+            },},{id: "projects-gurenge",
+          title: 'Gurenge',
+          description: "LISA, Adaption by Kim Taemyeong",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gurenge/";
             },},{id: "projects-la-campanella",
           title: 'La Campanella',
           description: "Paganini, Liszt",
           section: "Projects",handler: () => {
               window.location.href = "/projects/la_campanella/";
+            },},{id: "projects-next-to-you",
+          title: 'Next to You',
+          description: "Adaption by Theister",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nexttoyou/";
+            },},{id: "projects-river-flows-in-you",
+          title: 'River Flows in You',
+          description: "YIRUMA",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/river/";
             },},{id: "projects-unravel",
           title: 'Unravel',
           description: "Adaption by Animenz",
