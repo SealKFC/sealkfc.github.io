@@ -59,10 +59,13 @@ npm start
 
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/qAPHT_JzxHk?si=c2jW5gJc-CEqSBqC" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+  <a href="https://youtu.be/qAPHT_JzxHk?si=c2jW5gJc-CEqSBqC"
+     style="position: absolute; top: 0; left: 0; width:100%; height:100%;">
+    <img
+      src="https://img.youtube.com/vi/qAPHT_JzxHk/maxresdefault.jpg"
+      alt="A Cruel Angel's Thesis"
+      style="width:100%; height:100%; object-fit:cover;"
+    />
+  </a>
 </div>
-<div class="caption">
-    If embed doesn't work, click <a href="https://youtu.be/NHhUY5PsC7A">this link</a>
-</div>
-

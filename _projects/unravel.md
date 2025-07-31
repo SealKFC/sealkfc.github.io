@@ -17,9 +17,13 @@ Events Performed:
 
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/NHhUY5PsC7A" allowfullscreen></iframe>
-</div>
-<div class="caption">
-    If embed doesn't work, click [this link](https://youtu.be/NHhUY5PsC7A)
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+  <a href="https://youtu.be/NHhUY5PsC7A"
+     style="position: absolute; top: 0; left: 0; width:100%; height:100%;">
+    <img
+      src="https://img.youtube.com/vi/NHhUY5PsC7A/maxresdefault.jpg"
+      alt="A Cruel Angel's Thesis"
+      style="width:100%; height:100%; object-fit:cover;"
+    />
+  </a>
 </div>
