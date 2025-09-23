@@ -10,6 +10,7 @@ category: anime
 Next to You was among the first anime pieces I learned. 
 
 ---
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
   <a href="https://youtu.be/8MNP8-lzHE8?si=dYmAWc07xoRCTOzR"
      style="position: absolute; top: 0; left: 0; width:100%; height:100%;">

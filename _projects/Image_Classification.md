@@ -1,110 +1,79 @@
 ---
 layout: page
-title: Image Classification
-description: Transfer Learning with ResNet50
+title: Image Classification Part 2
+description: Created a custom CNN model to explore deep learning a bit further
 img: assets/img/food101.png
-importance: 2
+importance: 4
 category: work
 ---
 
 ---
-AP Computer Science A - Final Project Submission
-- Note: Project was originally completed in Google Colab
+- Note: This was my second independent project in which I wanted to create my own CNN model to classify images rather than fine-tuning an existing model to do it for me. This was also done before ChatGPT started to make an impact in programming and is highly reflective of my own abilities as an independent learner and explorer.
 
-Link to Github Repository [[Link](https://github.com/aaronrhim/image-classification)]
+Link to Github Repository [[Link](https://github.com/aaronrhim/custom-CNN)]
 
 ---
 
 ## Goal
 
-Learn how to use the pytorch library to perform transfer learning using Resnet50. For this project I specifically trained it on the Food101 dataset which is a dataset containing 101,000 images of food total with 101 classes of food, and some of the training data is poisoned to make it a bit harder to train. 
+Following my project where I fine-tuned the ResNet50 CNN model to predict images in the Food101 dataset, I wanted to learn a bit more about model architecture so I decided to build my own CNN model, ground-up. Here, I built a CNN model using the sequential package from Keras--a package that allows you to build deep learning models at the architectural level without having to actually do any math. This project was originally created in Google Colab without any use of AI and was only converted into a python repository, through the use of an agentic AI assistant, for presentation purposes.
+
+Again, the techniques I used in this repository were the most interesting methods that I wanted to use for my project but is just a small subset of the numerous deep learning techniques that I learned about.
 
 ---
 
-## Data Preprocessing
+# custom-CNN
 
-What is data transformation? It adds variation to every training run of images to randomly alter images so the model consistently gets "new" data it has never seen before increasing overall accuracy of the resulting model.
+Converted from a Jupyter notebook into a full Python project.
 
----
+This package trains and evaluates a simple CNN on CIFAR-10 using Keras (TensorFlow). It mirrors the original Sequential model and training flow from the notebook.
 
-#### Training Dataset
+## Project Structure
 
-- 75750 images
-- Data does contain some incorrect labels to make training harder (courtesy of yours truly, the data set creators)
-- Used for training, has random chance to flip training image horizontally (50% default)
-- Amplifies and diminishes random color values in training image
-- Vertical flipping is generally not advisable for this data set unless I'm going to be dealing with upside down pictures of food
+- `src/custom_cnn/` — Package modules
+  - `data.py` — Load and preprocess CIFAR-10 (normalize, shuffle, val split)
+  - `model.py` — Build the Sequential CNN
+  - `training.py` — Compile and fit with callbacks (EarlyStopping, ReduceLROnPlateau)
+  - `evaluation.py` — Evaluate and produce a classification report
+  - `cli.py` — Simple CLI for training and evaluation
+- `SequentialModel.ipynb` — Original notebook (kept for reference)
+- `pyproject.toml` — Build configuration
+- `requirements.txt` — Dependencies
+- `.gitignore` — Common ignores plus `models/` output directory
 
----
+## Setup
 
-#### Testing Dataset
-- No transforms, all data was checked and 100% accurate
-- 25250 images
+Create and activate a virtual environment (recommended), then install:
 
----
+```
+pip install -r requirements.txt
+pip install -e .
+```
 
-## Deployment
+This exposes the CLI `custom-cnn`.
 
----
+## Usage
 
-#### Software Requirements
+- Train and save a model:
 
-    Jupyter Labs, Jupyter Notebook
+```
+custom-cnn train --epochs 50 --batch-size 64 --output-dir models
+```
 
----
+- Evaluate a saved model and print a classification report:
 
-Simply run the code cells in the .ipynb file
+```
+custom-cnn eval --model models/model.keras --report
+```
 
----
+You can also run the CLI via Python:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/data_sample.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cheese_plate.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Samples of the training dataset and a test prediction.
-</div>
+```
+python -m custom_cnn.cli train --epochs 10
+python -m custom_cnn.cli eval --model models/model.keras --report
+```
 
----
+## Notes
 
-## Evaluation
-
-I used multiple evaluation techniques which includes popular optimizers such as SGD and Adam however, the Top K parameter allowed me to tokenize certain sections in my data that had the highest accuracy.
-
----
-
-#### Top K Accuracy
-
-LLMs, or Large Language Models, are trained on huge corpuses of text. Consequently, they feature massive dictionaries. However, some words are significantly more likely to appear (e.g. the, you, jump) than others (e.g. omnivore, innovation, matrimony). These words are cataloged as tokens, the fundamental unit of LLMs. Tokenizing large words includes splitting them into smaller strings (e.g. omnivore → omni and vore).  Essentially, Top K is an integer that defines how many of the most likely tokens should be considered when determining the next token.
-
----
-
-## Results
-
-- I made an AI model that can differenciate 101 different types of food, this is interactable with in [this Notebook](https://colab.research.google.com/drive/1z2gY2DQzOqxu-ArJWNTiRGr3NHp8hbQu?usp=sharing)
-- The model has a top1 accuracy of ~82.19% which upon investigating and comparing with other projects is fairly competitive using ~40-50 epochs
-- The model has a top5 accuracy of ~96.02%
-  - Top5 describes the top 5 predictions of the model on what it thinks an image is, that means based on this metric, the model gets ~97% of its predictions correct in the top 5 things it thinks an image is
-
-Source of top1 comparisons:
-- [Comparison 1: ~86%](https://github.com/Herick-Asmani/Food-101-classification-using-ResNet-50/blob/master/Food101challenge.ipynb)
-- [Comparison 2: ~84%](https://jovian.com/rivsonmoraes/food101_complete_resnet50)
-
----
-
-#### What could be done to learn more?
-- investigating how accuracy changes with different sizes of models (eg. Resnet200, resnet152, etc.)
-- learning how to design a model from scratch would be a longer term goal
-- learning how LLMs train without a groundtruth is also something that is interesting; classification models/projects typically have a set of data to evaulate performance of a model, but LLMs are generative so there's not exactly a groundtruth to tell if it's spouting nonsense or forming coherent sentences
-- Modifying training data manually to remove poisoned data to increase accuracy would also be an interesting project to look at
-
----
-
-#### What were some constraints encountered with the project?
-- restriction of vRAM from using google colab restricted the size of model I could use, as well as the resolution of pictures.
-- Preferably I would use something other than a T4 gpu to train, but it's the most powerful thing I have available without spending extra money
-- Restriction in training time allowed per sesion is something I had to work around by using multiple google accounts
+- The implementation uses TensorFlow/Keras as per the notebook. If you prefer PyTorch, we can port the architecture and training loop accordingly.
+- CIFAR-10 is downloaded via `tensorflow.keras.datasets` on first run.
