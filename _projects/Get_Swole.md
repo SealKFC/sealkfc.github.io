@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get Swole
-description: BC Hacks 6 Submission
+description: Built an AI gym trainer fullstack application
 img: assets/img/Get_Swole.png
 importance: 2
 category: fun
@@ -12,7 +12,9 @@ giscus_comments: false
 ## Github Repository
 [Get Swole Link](https://github.com/aaronrhim/HackathonCS6)
 
-Get Swole is a fullstack web application that boosts gym performance by analyzing your form in real-time. It leverages MediaPipe for pose landmark detection and a custom model to verify full exercise repetitions.
+### Idea
+
+Are you worried that people are judging you during your workout for having poor form? Are you worried that your joints might break mid rep? Well if so, Get Swole is the right application for you! Built on the idea to integrate AI into your daily gym sessions, Get Swole is a fullstack web application that boosts your gym performance by letting you see if your form is correct or not. Through a live video feed that has a built-in body angle detector, the user can fix their posture and count how many full reps they've done which both lead to noticably visible gains!
 
 ---
 
