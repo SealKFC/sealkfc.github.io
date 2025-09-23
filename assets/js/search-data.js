@@ -96,7 +96,12 @@ ninja.data = [{
               window.location.href = "/projects/Get_Swole/";
             },},{id: "projects-image-classification",
           title: 'Image Classification',
-          description: "Transfer Learning with ResNet50",
+          description: "Fine-tuned an image model to make predictions on the Food101 dataset",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Image_Classification%20copy/";
+            },},{id: "projects-image-classification-part-2",
+          title: 'Image Classification Part 2',
+          description: "Created a custom CNN model to explore deep learning a bit further",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Image_Classification/";
             },},{id: "projects-inspirit-summer-program",
