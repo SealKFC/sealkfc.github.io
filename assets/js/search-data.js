@@ -91,7 +91,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-get-swole",
           title: 'Get Swole',
-          description: "BC Hacks 6 Submission",
+          description: "Built an AI gym trainer fullstack application",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Get_Swole/";
             },},{id: "projects-image-classification",
