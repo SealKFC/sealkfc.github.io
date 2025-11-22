@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# migrate to new portfolio, ignore all workflows
+.github/workflows
